@@ -5,7 +5,8 @@ public class Constant extends Expression {
         this.constant = constant;
     }
 
-    public long value() {
+    @Override
+    long value() {
         return constant;
     }
 

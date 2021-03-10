@@ -9,17 +9,6 @@ public class Operator extends Expression {
     }
 
     @Override
-    long value() {
-        long leftvalue = (left==null)?0:left.value();
-        long rightvalue = (right==null)?0:right.value();
-        switch (op) {
-            case '+' : return leftvalue + rightvalue;
-            case '*' : return leftvalue * rightvalue;
-            default: return 0;
-        }
-    }
-
-    @Override
     public String toString() {
         String leftString = (left==null)?"":left.toString();
         String rightString = (right==null)?"":right.toString();
@@ -30,5 +19,16 @@ public class Operator extends Expression {
                 rightString = "(" + rightString + ")";
         }
         return leftString + op + rightString;
+    }
+
+    @Override
+    long value() {
+        long leftvalue = (left==null)?0:left.value();
+        long rightvalue = (right==null)?0:right.value();
+        switch (op) {
+            case '+' : return leftvalue + rightvalue;
+            case '*' : return leftvalue * rightvalue;
+            default  : return 0;
+        }
     }
 }
