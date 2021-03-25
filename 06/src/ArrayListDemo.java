@@ -3,10 +3,12 @@ public class ArrayListDemo {
   public static void main(String[] args) {
     String[] p = {"a","b","c","d"};
     List <String> s = new ArrayList<String>();
-
+      for (String a : p)
+          s.add(a);
     List <String> s1 = new ArrayList<>();
     ArrayList<String> s2 = new ArrayList<>();
     //ArrayList<String> s3 = new List<String>();
+
     List<String> s4 = List.of("a","b","c","d");
 
     s.add("e");
@@ -14,8 +16,7 @@ public class ArrayListDemo {
     s2.add("e");
     //s4.add("e");
 
-    for (String a : p)
-      s.add(a);
+
     for (Iterator<String> it = s.iterator();it.hasNext(); )
   	  System.out.print(it.next());
     System.out.println();

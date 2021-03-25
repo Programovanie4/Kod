@@ -1,16 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Search<S extends State> {
-	List<List<S>> riesenia;
+public class Search<S extends State<S>> {
+	List<List<State<S>>> riesenia;
 
 	public Search() {
-		riesenia = new ArrayList<List<S>>();
+		riesenia = new ArrayList<>();
 	}
 
-	public void add(List<S> s) {
-	    List<S> ss = new ArrayList<>();
-	    ss.addAll(s);
+	public void add(List<State<S>> s) {
+        List<State<S>> ss = new ArrayList<>(s);
 		riesenia.add(ss);
 	}
 
@@ -25,75 +24,73 @@ public class Search<S extends State> {
 		if (s.isFinalState()) 
 			add(List.of(s));
 		else
-			for (State ns : s.next())
-				search((S) ns);
+			for (State<S> ns : s.next())
+				search(ns);
 	}
 
-	public List<List<S>> search(S s) {
-		ArrayList<S> visited = new ArrayList<S>();
+	public List<List<State<S>>> search(State<S> s) {
+		ArrayList<State<S>> visited = new ArrayList<>();
 		visited.add(s);
 		search(s, visited);
 		return riesenia;
 	}
 
-	
-	public void search(S s, ArrayList<S> visited) {
+	public void search(State<S> s, ArrayList<State<S>> visited) {
 		if (s.isFinalState()) {
 			add(visited);
 		} else
-			for (State ns : s.next()) {
+			for (State<S> ns : s.next()) {
 				if (!visited.contains(ns) && ns.isCorrect()) {
-					visited.add((S) ns);
-					search((S) ns, visited);
+					visited.add(ns);
+					search(ns, visited);
 					visited.remove(ns);
 				}
 			}
 	}
 
 	public void search(S s, boolean DFS) {
-		ArrayList<S> queue = new ArrayList<S>();
+		ArrayList<State<S>> queue = new ArrayList<>();
 		queue.add(s);
-		ArrayList<S> visited = new ArrayList<S>();
+		ArrayList<State<S>> visited = new ArrayList<>();
 		search(queue, visited, DFS);
 	}
 
-	private void search(ArrayList<S> queue, ArrayList<S> visited, boolean DFS) {
+	private void search(ArrayList<State<S>> queue, ArrayList<State<S>> visited, boolean DFS) {
 		while (queue.size() > 0) {
-			S s = queue.remove(0);
+			State<S> s = queue.remove(0);
 			if (s.isFinalState()) {
 				add(visited);
 			} else {
-				for (State ns : s.next()) {
+				for (State<S> ns : s.next()) {
 					if (!visited.contains(ns) && ns.isCorrect()) {
-						visited.add((S) ns);
+						visited.add(ns);
 						if (DFS)
-							queue.add(0, (S) ns);
+							queue.add(0, ns);
 						else
-							queue.add(queue.size(), (S) ns);
+							queue.add(queue.size(),ns);
 					}
 				}
 			}
 		}
 	}
 	
-	private void search(ArrayList<S> queue, ArrayList<S> visited, ArrayList<S> comeFrom, boolean DFS) {
+	private void search(ArrayList<State<S>> queue, ArrayList<State<S>> visited, ArrayList<State<S>> comeFrom, boolean DFS) {
 		while (queue.size() > 0) {
-			S s = queue.remove(0);
+            State<S> s = queue.remove(0);
 			if (s.isFinalState()) {
 				add(visited);
 			} else {
-				for (State ns : s.next()) {
+				for (State<S> ns : s.next()) {
 					if (!visited.contains(ns) && ns.isCorrect()) {
-						visited.add((S) ns);
-						comeFrom.add((S) s);
+						visited.add(ns);
+						comeFrom.add(s);
 						if (DFS) {
-							queue.add(0, (S) ns);
+							queue.add(0,  ns);
 						} else
-							queue.add(queue.size(), (S) ns);
+							queue.add(queue.size(), ns);
 					}
 				}
 			}
 		}
 	}
-	
 }
