@@ -2,21 +2,21 @@
 public class DoException {
   public static void main(String[] args) {
 	try { // kód produkujúci Ex1, Ex2 resp. Ex12
-	  switch((int)(3*Math.random())) {
+	  switch((int)(5*Math.random())) {
 	    case 0: throw new Exception12();
 	    case 1: throw new Exception1();
 	    case 2: throw new Exception2();
 	  }
 	} catch (Exception1 e1) {
 	    System.out.println("Exception 1");
-        //e1.printStackTrace();
-	    //return;
+        e1.printStackTrace();
+	    return;
 	} catch (Exception2 e2) {
 	    System.out.println("Exception 2"); 
-	    //return;
+	    return;
 	} catch (Exception12 e12) {
 		System.out.println("Exception 12");
-		//return;
+		return;
 	} finally {
 	    System.out.println("finally");
 	}
