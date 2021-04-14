@@ -48,7 +48,7 @@ public class Znamky {
                                 .stream()
                                 .max(Comparator.comparingLong(Map.Entry::getValue))
                                 .get()
-                                .getValue().intValue()
+                                .getKey()
                 ));
     }
 
