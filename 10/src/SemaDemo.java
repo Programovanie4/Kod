@@ -48,8 +48,8 @@ public class SemaDemo extends Application {
 		thread2 = new ThreadPanel("Thread 2", Color.BLUE, true);
 		thread3 = new ThreadPanel("Thread 3", Color.BLUE, true);
 		Semaphore mutex = new DisplaySemaphore(semaDisplay, 
-				1 );
-			//	2 );
+			//	1 );
+				2 );
 		thread1.start(new SemaphoreLoop(mutex));
 		thread2.start(new SemaphoreLoop(mutex));
 		thread3.start(new SemaphoreLoop(mutex));
