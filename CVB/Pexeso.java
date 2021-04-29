@@ -112,7 +112,7 @@ public class Pexeso extends Application {
             state.elapsedTime++;
             lbTime.setText("Čas: " + state.elapsedTime);
         }));
-        tikadielko.setCycleCount(Timeline.INDEFINITE);
+        tikadielko.setCycleCount(7);
         tikadielko.play();
 
 
