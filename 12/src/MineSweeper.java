@@ -116,37 +116,87 @@ public final class MineSweeper {
 //    }
 
     private static boolean smartMove() {
-        for (int i = 0; i < game.rows; i++) {
-            for (int j = 0; j < game.cols; j++) {
-                if (!game.isUnOpen(i,j)) {
-                    //(i,j) je otvorene
-                    int hodnota = game.getBombsAround(i,j);
-                    if (hodnota == 0)
-                        continue;
-
-                    if (countNeighboringUnopened(i,j) + countNeighboringFlagged(i,j) == hodnota) {
-                        //okolo je tolko bomb ako je volnych policok
-                        for (int k = i-1; k <= i+1; k++) {
-                            for (int l = j-1; l <= j+1; l++) {
-                                if (isClickable(k,l)) {
-                                    game.flagCell(k, l);
+        int nasiel=0;
+        for (int y = 0; y < game.rows; y++){
+            for (int x = 0; x < game.cols; x++) {
+                if (!game.isUnOpen(x, y)) {
+                    if ((countNeighboringUnopened(x, y)+countNeighboringFlagged(x,y)) == game.getBombsAround(x, y)&& game.getBombsAround(x, y)>0) {
+                        for (int k = x == 0 ? 0 : -1; k <= (x == game.rows - 1 ? 0 : 1); k++) {
+                            for (int l = y == 0 ? 0 : -1; l <= (y == game.cols - 1 ? 0 : 1); l++) {
+                                if (game.isUnOpen(x+k, y+l) && !game.isFlagged(x+k, y+l)) {
+                                    game.flagCell(x+k, y+l);
+                                    nasiel++;
                                     return true;
                                 }
                             }
                         }
-
-                    }
-
-                    if (isDefused(i,j)) {
-                        //vsetky bomby su oznacene
-                        game.show3x3Cels(i,j);
-                        return true;
                     }
                 }
-            }
+            }}
+        int p=0;
+        for (int y = 0; y < game.rows; y++){
+            for (int x = 0; x < game.cols; x++) {
+                if (game.isFlagged(x, y)) {
+                    p++;
+                }
+            }}
+        if (p==10){
+            for (int y = 0; y < game.rows; y++)
+                for (int x = 0; x < game.cols; x++)
+                    if (game.isUnOpen(x, y)) {
+                        game.openCell(x,y);
+                    }
         }
-        return false;
+        for (int y = 0; y < game.rows; y++)
+            for (int x = 0; x < game.cols; x++)
+                if (!game.isUnOpen(x, y)) {
+                    if(countNeighboringFlagged(x,y)==game.getBombsAround(x,y)){
+                        for (int k = x==0?0:-1; k <= (x== game.rows-1?0:1); k++) {
+                            for (int l = y==0?0:-1; l <= (y== game.cols-1?0:1); l++) {
+                                if (game.isUnOpen(x+k,y+l)&&!game.isFlagged(x+k,y+l)){
+                                    game.openCell(x+k,y+l);
+                                    nasiel++;
+                                    return true;
+                                }
+                            }
+                        }
+                    }
+                }
+        return nasiel==0?false:true;
     }
+
+//    private static boolean smartMove() {
+//        for (int i = 0; i < game.rows; i++) {
+//            for (int j = 0; j < game.cols; j++) {
+//                if (!game.isUnOpen(i,j)) {
+//                    //(i,j) je otvorene
+//                    int hodnota = game.getBombsAround(i,j);
+//                    if (hodnota == 0)
+//                        continue;
+//
+//                    if (countNeighboringUnopened(i,j) + countNeighboringFlagged(i,j) == hodnota) {
+//                        //okolo je tolko bomb ako je volnych policok
+//                        for (int k = i-1; k <= i+1; k++) {
+//                            for (int l = j-1; l <= j+1; l++) {
+//                                if (isClickable(k,l)) {
+//                                    game.flagCell(k, l);
+//                                    return true;
+//                                }
+//                            }
+//                        }
+//
+//                    }
+//
+//                    if (isDefused(i,j)) {
+//                        //vsetky bomby su oznacene
+//                        game.show3x3Cels(i,j);
+//                        return true;
+//                    }
+//                }
+//            }
+//        }
+//        return false;
+//    }
     private static boolean isDefused(int x, int y) {
         return game.getBombsAround(x, y) == countNeighboringFlagged(x, y) && countNeighboringUnopened(x, y) > 0;
     }
