@@ -1,0 +1,135 @@
+abstract class Tree {
+    abstract int size();  // pocet vrcholov stromu
+    abstract int depth(); // hlbka stromu
+    abstract int root(); // nejvrchnejsi element stromu
+    abstract boolean isBST(); // splna vlastnost bin.vyhlad.stromu
+    int velkost() { // bizardny kod
+        if (this instanceof Node n) {
+            //Node n = (Node)this;
+            return 1 +((n.getLeft()==null)?0:n.getLeft().velkost()) +
+                    ((n.getRight()==null)?0:n.getRight().velkost());
+        } else if (this instanceof Leaf l) {
+            //Leaf l = (Leaf)this;
+            return 1;
+        } else
+            return 9999;
+    }
+}
+
+class Node extends Tree {
+    private Tree left;
+    private int value;
+    private Tree right;
+
+    public Node(Tree left, int value, Tree right) {
+        this.left = left;
+        this.value = value;
+        this.right = right;
+    }
+    public Tree getLeft() {
+        return left;
+    }
+    public void setLeft(Tree left) {
+        this.left = left;
+    }
+    public Tree getRight() {
+        return right;
+    }
+    public void setRight(Tree right) {
+        this.right = right;
+    }
+    @Override
+    public String toString() {
+        return "[" +
+                left +
+                ", " + value + ", " + right +
+                ']';
+    }
+
+    @Override
+    int size() {
+        return 1+ ((left==null)?0:left.size()) + ((right==null)?0:right.size());
+    }
+
+    @Override
+    int depth() {
+        return 1+ Math.max(((left==null)?0:left.size()) , ((right==null)?0:right.size()));
+    }
+
+    @Override
+    int root() {
+        return value;
+    }
+
+    boolean isBST() {
+
+        return (left == null || left.root() < value && left.isBST())
+                &&
+                (right == null || right.root() > value && right.isBST());
+    }
+}
+
+class Leaf extends Tree {
+    private int value;
+
+    public Leaf(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+    public void setValue(int value) {
+        this.value = value;
+    }
+    @Override
+    public String toString() {
+        return "(" +
+                value +
+                ')';
+    }
+    @Override
+    int size() {
+        return 1;
+    }
+    @Override
+    int depth() {
+        return 1;
+    }
+    @Override
+    int root() {
+        return value;
+    }
+    @Override
+    boolean isBST() {
+        return true;
+    }
+}
+
+public class BST {
+
+    static int velkost1(Tree t) {
+        if (t instanceof Node n) {
+            return 1 +  ((n.getLeft()==null)?0:velkost1(n.getLeft())) +
+                    ((n.getRight()==null)?0:velkost1(n.getRight()));
+        } else if (t instanceof Leaf) {
+            //Leaf l = (Leaf)this;
+            return 1;
+        } else  // je cas pochopit sealed class/interface
+            return 9999;
+    }
+
+    public static void main(String[] args) {
+        Tree c1 = new Leaf(17);
+        System.out.println(c1);
+        Tree c2 = new Node(c1, 4, c1);
+        System.out.println(c2);
+        Tree c3 = new Node(c1, 5,null);
+        System.out.println(c3.size());
+        System.out.println(c3.depth());
+        Tree c = new Node(new Leaf(1), 2, new Leaf(3));
+        System.out.println(c.isBST());
+        System.out.println(c.velkost());
+        System.out.println(velkost1(c));
+    }
+}
