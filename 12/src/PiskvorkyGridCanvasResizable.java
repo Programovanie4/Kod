@@ -77,8 +77,8 @@ public class PiskvorkyGridCanvasResizable extends Application {
 
 		public void paintCell() {
 			GraphicsContext gc = getGraphicsContext2D();
-			Image imageX = new Image("x.gif", getWidth() - 2, getHeight() - 2, false, false);
-			Image imageO = new Image("o.gif", getWidth() - 2, getHeight() - 2, false, false);
+			Image imageX = new Image("file:x.gif", getWidth() - 2, getHeight() - 2, false, false);
+			Image imageO = new Image("file:o.gif", getWidth() - 2, getHeight() - 2, false, false);
 			gc.clearRect(0, 0, getWidth(), getHeight());
 			gc.strokeRect(0, 0, getWidth(), getHeight());
 			if (ps.playground[i][j] == 1)

@@ -120,7 +120,7 @@ public class Zabky extends Application{
 
             public void paint() {
                 if (daSaOvladat) {
-                    ImageView zabkaImage = new ImageView("zaba.png");
+                    ImageView zabkaImage = new ImageView("file:zaba.png");
                     zabkaImage.setX(x);
                     zabkaImage.setY((currentRow * 80) + (120 - (velkostZabky / 2) - sirkaBrvna));
                     zabkaImage.setFitHeight(velkostZabky);

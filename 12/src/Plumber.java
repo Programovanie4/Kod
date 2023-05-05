@@ -34,8 +34,8 @@ public class Plumber extends Application {
 	@Override
     public void start(Stage primaryStage) throws Exception {
 		for (int i = 1; i <= 8; i++) {
-			img[i] = new Image("images\\plumber" + i + ".png");
-			img_blue[i] = new Image("images\\plumber" + i + "_blue.png");
+			img[i] = new Image("file:images\\plumber" + i + ".png");
+			img_blue[i] = new Image("file:images\\plumber" + i + "_blue.png");
 		}
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(new File("Plumber.txt")));

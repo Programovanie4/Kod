@@ -187,12 +187,12 @@ public class Eurace extends Application {
 			g.clearRect(0, 0, getWidth(), getHeight());
 			offset = dist = (int) (Math.min(getHeight(), getWidth())) / (N + 1);
 			
-			images[0] = new Image("mince\\1.gif", (double) offset / 2, (double) offset / 2, false, false);
-			images[1] = new Image("mince\\2.gif", (double) offset / 2, (double) offset / 2, false, false);
-			images[2] = new Image("mince\\5.gif", (double) offset / 2, (double) offset / 2, false, false);
-			images[3] = new Image("mince\\10.gif", (double) offset / 2, (double) offset / 2, false, false);
-			images[4] = new Image("mince\\20.gif", (double) offset / 2, (double) offset / 2, false, false);
-			images[5] = new Image("mince\\50.gif", (double) offset / 2, (double) offset / 2, false, false);
+			images[0] = new Image("file:mince\\1.gif", (double) offset / 2, (double) offset / 2, false, false);
+			images[1] = new Image("file:mince\\2.gif", (double) offset / 2, (double) offset / 2, false, false);
+			images[2] = new Image("file:mince\\5.gif", (double) offset / 2, (double) offset / 2, false, false);
+			images[3] = new Image("file:mince\\10.gif", (double) offset / 2, (double) offset / 2, false, false);
+			images[4] = new Image("file:mince\\20.gif", (double) offset / 2, (double) offset / 2, false, false);
+			images[5] = new Image("file:mince\\50.gif", (double) offset / 2, (double) offset / 2, false, false);
 			
 			g.setStroke((s.player) ? Color.RED : Color.BLUE);
 			g.strokeText("player: " + ((s.player) ? "red" : "blue"), 0, 20);

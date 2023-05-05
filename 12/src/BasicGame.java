@@ -108,7 +108,7 @@ public class BasicGame extends Application {
             board.paint();
         });
         primaryStage.setTitle("Game");
-        primaryStage.setScene(new Scene(root));
+        primaryStage.setScene(new Scene(root, 600, 600));
         primaryStage.show();
     }
 

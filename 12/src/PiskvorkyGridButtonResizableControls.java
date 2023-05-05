@@ -114,8 +114,8 @@ public class PiskvorkyGridButtonResizableControls extends Application {
 	}
 
 	public static void updateButtons() {
-		ImageView imageO = new ImageView(new Image("o.gif"));
-		ImageView imageX = new ImageView(new Image("x.gif"));
+		ImageView imageO = new ImageView(new Image("file:o.gif"));
+		ImageView imageX = new ImageView(new Image("file:x.gif"));
 		
 		for (final Node child : pgg.getChildren()) { // ak sa zmen� rozmer pg
 			final PiskyCell tile = (PiskyCell) child; // zme� ve�kosti buniek
@@ -149,8 +149,8 @@ public class PiskvorkyGridButtonResizableControls extends Application {
 		public PiskyCell(int i, int j) {
 			this.i = i;
 			this.j = j;
-			ImageView imageO = new ImageView(new Image("o.gif"));
-			ImageView imageX = new ImageView(new Image("x.gif"));
+			ImageView imageO = new ImageView(new Image("file:o.gif"));
+			ImageView imageX = new ImageView(new Image("file:x.gif"));
 			imageX.fitWidthProperty().bind(widthProperty()); 
 			imageX.fitHeightProperty().bind(heightProperty());
 			imageO.fitWidthProperty().bind(widthProperty()); 

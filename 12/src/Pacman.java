@@ -42,13 +42,13 @@ public class Pacman extends Application {
             		x = j; y = i; break nasiel;
             	}
             }
-    	pLeft = new Image("left.gif");
-    	pRight = new Image("right.gif");
-    	pUp = new Image("up.gif");
-    	pDown = new Image("down.gif");
-    	cherry = new Image("cherry.gif");
-    	dot = new Image("dot.gif");
-    	wall = new Image("wall.gif");
+    	pLeft = new Image("file:left.gif");
+    	pRight = new Image("file:right.gif");
+    	pUp = new Image("file:up.gif");
+    	pDown = new Image("file:down.gif");
+    	cherry = new Image("file:cherry.gif");
+    	dot = new Image("file:dot.gif");
+    	wall = new Image("file:wall.gif");
     	iconSize = Math.max(pLeft.getWidth(),pLeft.getHeight());
     	height = mapa.length*iconSize;
     	width = mapa[0].length*iconSize;

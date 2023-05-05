@@ -47,8 +47,8 @@ public class PiskvorkyGridButtonResizable extends Application {
 
 	class PiskyCell extends Button {
 		int i, j;
-		ImageView imageO = new ImageView(new Image("o.gif"));
-		ImageView imageX = new ImageView(new Image("x.gif"));
+		ImageView imageO = new ImageView(new Image("file:o.gif"));
+		ImageView imageX = new ImageView(new Image("file:x.gif"));
 
 		public PiskyCell(int i, int j) {
 			this.i = i;

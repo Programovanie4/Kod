@@ -62,8 +62,8 @@ public class PiskvorkyCanvasResizable extends Application {
 		}
 
 		public void paintCell(int col, int row) {
-			Image imageO = new Image("o.gif", cellWidth()-2, cellHeight()-2, false, false);
-			Image imageX = new Image("x.gif", cellWidth()-2, cellHeight()-2, false, false);
+			Image imageO = new Image("file:o.gif", cellWidth()-2, cellHeight()-2, false, false);
+			Image imageX = new Image("file:x.gif", cellWidth()-2, cellHeight()-2, false, false);
 			
 			double px = getPixelY(col);
 			double py = getPixelX(row);
