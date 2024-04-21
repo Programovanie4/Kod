@@ -16,7 +16,7 @@ public class Quadterm2016 {
 			ss.append("a");
 		String s = ss.toString();
 		System.out.println("elapsed time: " + (System.currentTimeMillis()-start)/1000);
-		
+
 	}
 
 }

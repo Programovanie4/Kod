@@ -19,7 +19,7 @@ record Complx_record(double real, double imag) {
     //data class/record NEmoze mat triednu premennu, jedine hodnoty v objekte su zname z konstruktora
     //int index = 0;
 
-    //data class/record naprik tomu moze mat triednu metodu
+    //data class/record napriek tomu moze mat triednu metodu
     double abs() {
         return Math.sqrt(real*real + imag*imag);
     }

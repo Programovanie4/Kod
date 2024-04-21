@@ -4,16 +4,6 @@ public class Complx {
     private double real;    // realna cast
     private double imag;    // imaginarna cast
 
-    boolean xxx;
-
-    public boolean isXxx() {
-        return xxx;
-    }
-
-    public void setXxx(boolean xxx) {
-        this.xxx = xxx;
-    }
-
     public double getReal() {
         return real;
     }
@@ -26,30 +16,40 @@ public class Complx {
         return imag;
     }
 
+    public void setImag(double imag) {
+        this.imag = imag;
+    }
+
+    public boolean isXxx() {
+        return xxx;
+    }
+
+    public void setXxx(boolean xxx) {
+        this.xxx = xxx;
+    }
+
+    private boolean xxx;
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Complx complx = (Complx) o;
-        return Double.compare(complx.real, real) == 0 && Double.compare(complx.imag, imag) == 0;
+        return Double.compare(complx.real, real) == 0 && Double.compare(complx.imag, imag) == 0 && xxx == complx.xxx;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(real, imag);
+        return Objects.hash(real, imag, xxx);
     }
 
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("{");
+        final StringBuffer sb = new StringBuffer("Complx{");
         sb.append("real=").append(real);
         sb.append(", imag=").append(imag);
         sb.append('}');
         return sb.toString();
-    }
-
-    public void setImag(double imag) {
-        this.imag = imag;
     }
 
     public Complx(double real, double imag) {
