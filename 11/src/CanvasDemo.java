@@ -25,9 +25,9 @@ public class CanvasDemo extends Application {
 		
 		Affine af = new Affine(); // afinn� zobrazenie
 		for (int i = 0; i < 100; i++) {
-	//		af.append(Affine.scale(0.9, 0.9, 350, 350)); // rovnolahlost
-	//		af.append(Affine.rotate(61, 350, 350)); // otocenie
-	//	af.append(Affine.translate(20, 20)); // posunutie
+			//af.append(Affine.scale(0.9, 0.9, 350, 350)); // rovnolahlost
+			//af.append(Affine.rotate(61, 350, 350)); // otocenie
+		//af.append(Affine.translate(20, 20)); // posunutie
 			af.append(Affine.shear(3	, 3)); // zoslapnutie
 			gc.setTransform(af); paintShapes(gc);
 		}

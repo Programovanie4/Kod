@@ -21,10 +21,10 @@ public class Klobuky extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		//st = new StateK(3,2,3);
+		st = new StateK(3,2,3);
 		//st = new StateK(2,1,2);
 		//st = new StateK(4,3,4);
-		st = new StateK(6,5,6);
+		//st = new StateK(6,5,6);
 		//st = new StateK(7,6,7);
 		//st = new StateK(16,15,16);
 		pg = new Playground();
