@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/BallFx.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/BallThreadFx.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Hodinky.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Joiner.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Lopata.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/LopataSem.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/LopataWN.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/ManyBallsAnimationTimerFx.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/PriorityThread.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Queens.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Receiver.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/RobotniciBezSemaforu.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/RobotniciSemaforom.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/SandBoxFx.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Sender.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/SenderReceiver.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/SimpleThread.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/SimpleThread2.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Sleeper.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/SleeperJoiner.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/SleepingThread.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/SortyFx.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/TaskThreadDemo.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/TurtleCanvas.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/TurtlePanel.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/TurtleThread.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/VytvorProces.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Whisperers.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Whisperers1.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Whisperers2.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Whisperers3.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/Whisperers4.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/_9n/YieldingThread.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

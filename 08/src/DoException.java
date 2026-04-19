@@ -9,7 +9,7 @@ public class DoException {
 	  }
 	} catch (Exception1 e1) {
 	    System.out.println("Exception 1");
-        e1.printStackTrace();
+        //e1.printStackTrace();
 	    return;
 	} catch (Exception2 e2) {
 	    System.out.println("Exception 2"); 
