@@ -1,15 +1,8 @@
-package org.example.cvicenie9;
+package org.example._0;
 
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-
-import javafx.animation.AnimationTimer;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
-import javafx.application.Platform;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
@@ -17,6 +10,9 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 
 public class RucickyFxCvicenie extends Application {

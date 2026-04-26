@@ -5,46 +5,108 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ac9cb8d-ae2f-4246-a3f9-dc4e8700bf64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9/src/main/java/org/example/cvicenie9/RucickyFxCvicenie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/Cvicenie9_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/Tests/TestRieky.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/Tests/TestRy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/src/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/src/Rieka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/src/Rieky.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/src/Ry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/howtowithjavafx/HowtoWithCanvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/howtowithjavafx/HowtoWithPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/howtowithjavafx/namornik.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XXXXX/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XXXXX/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XXXXX/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XXXXX/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XXXXX/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/ManyBallsAnimationTimerFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/ManyBallsAnimationTimerFx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/SleepingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/SleepingThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/YieldingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/YieldingThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HowToWithJavaFX.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/namornik.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HowToWithJavaFX/HowtoWithCanvas$MyCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HowToWithJavaFX/HowtoWithCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HowToWithJavaFX/HowtoWithPane$MyPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HowToWithJavaFX/HowtoWithPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HowtoWithCanvas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HowtoWithPane.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/HowtoWithCanvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/HowtoWithPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/RucickyFxCvicenie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/src/main/resources/org/example/_0/namornik.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/ClojureProjectResolveSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/AutoEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/Diners$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/Diners$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/Diners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/DisplaySemaphore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/DisplayThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/FixedPhilosopher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/Fork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/GraphicCanvas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/GraphicCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/Layouts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/MyButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/MyButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/NumberCanvas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/NumberCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/PhilCanvas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/PhilCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/Philosopher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/PiskvorkyGridCanvas$PiskyCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/PiskvorkyGridCanvas$PiskyState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/PiskvorkyGridCanvas$Piskyground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/PiskvorkyGridCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/PiskvorkyGridToggleButton$PiskyCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/PiskvorkyGridToggleButton$PiskyState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/PiskvorkyGridToggleButton$Piskyground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/PiskvorkyGridToggleButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/Rotator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/SemaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/Semaphore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/SemaphoreLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/SmallPane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/Squash$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/Squash$PlayGround.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/Squash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/StageDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/TMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/TenisCanvas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/TenisCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/TenisFx$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/TenisFx$PlayGround.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/TenisFx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/ThreadPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/ThreadPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/ThreadPanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/ThreadPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/eating.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/gotleft.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/gotright.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/hungry.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/namornik.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/namornik2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/namornik2s.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/namorniks.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/o.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/thinking.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/out/production/10/x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/AutoEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/Diners.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/DisplaySemaphore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/FixedPhilosopher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/Fork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/Layouts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/NumberCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/PhilCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/Philosopher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/PiskvorkyGridCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/PiskvorkyGridToggleButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/SemaDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/Semaphore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/Squash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/StageDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/TMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/TenisCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/TenisFx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/ThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/eating.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/gotleft.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/gotright.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/hungry.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/namornik.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/namornik2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/namornik2s.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/namorniks.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/o.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/thinking.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cvicenie9/src/main/java/org/example/cvicenie9/RucickyFxCvicenie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cvicenie9/src/main/java/org/example/cvicenie9/RucickyFxCvicenie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +155,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HowtoWithCanvas.executor": "Run",
+    "Application.HowtoWithPane (1).executor": "Run",
     "Application.HowtoWithPane.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -181,7 +244,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1777192227750</updated>
-      <workItem from="1777192229399" duration="323000" />
+      <workItem from="1777192229399" duration="1280000" />
     </task>
     <servers />
   </component>
