@@ -23,8 +23,8 @@ public class SleepingThread extends Thread {
   }
   public static void main(String[] args) throws InterruptedException {
     for(int i = 0; i < 15; i++) {
-        new SleepingThread().join();
-        //new SleepingThread();
+        //new SleepingThread().join();
+        new SleepingThread();
         System.out.println("--");
     }
     System.out.println("finito");

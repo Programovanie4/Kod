@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ac9cb8d-ae2f-4246-a3f9-dc4e8700bf64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9/src/main/java/org/example/cvicenie9/RucickyFxCvicenie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/Cvicenie9_.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/Tests/TestRieky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/Tests/TestRy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/src/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/src/Rieka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/src/Rieky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cvicenie9_/src/Ry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/howtowithjavafx/HowtoWithCanvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/howtowithjavafx/HowtoWithPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/howtowithjavafx/namornik.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XXXXX/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XXXXX/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XXXXX/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XXXXX/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XXXXX/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/ManyBallsAnimationTimerFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/ManyBallsAnimationTimerFx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/SleepingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/SleepingThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/YieldingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09N/src/main/java/org/example/_9n/YieldingThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HowToWithJavaFX.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/namornik.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HowToWithJavaFX/HowtoWithCanvas$MyCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HowToWithJavaFX/HowtoWithCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HowToWithJavaFX/HowtoWithPane$MyPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HowToWithJavaFX/HowtoWithPane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HowtoWithCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HowtoWithPane.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/borovan/JAVA/Kod/HowToWithJavaFX" value="3Ct5rN25VKiGOtee1ZHwglWTxhD" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "peterborovan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Programovanie4/Kod.git",
+    "accountId": "a8ce023e-ee1d-4f23-8503-1a1b0445650b"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3Ct5rN25VKiGOtee1ZHwglWTxhD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HowtoWithCanvas.executor": "Run",
+    "Application.HowtoWithPane.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/borovan/JAVA/Kod/HowToWithJavaFX/src/main/resources/org/example/howtowithjavafx",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\borovan\JAVA\Kod\HowToWithJavaFX\src\main\resources\org\example\howtowithjavafx" />
+      <recent name="D:\borovan\JAVA\Kod\HowToWithJavaFX\src\main\java\org\example\howtowithjavafx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HowtoWithPane">
+    <configuration name="HowtoWithCanvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.howtowithjavafx.HowtoWithCanvas" />
+      <module name="HowToWithJavaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.howtowithjavafx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HowtoWithPane (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.howtowithjavafx.HowtoWithPane" />
+      <module name="HowToWithJavaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.howtowithjavafx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HowtoWithPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.howtowithjavafx.HowtoWithPane" />
+      <module name="HowToWithJavaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.howtowithjavafx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HowtoWithPane" />
+        <item itemvalue="Application.HowtoWithCanvas" />
+        <item itemvalue="Application.HowtoWithPane (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ac9cb8d-ae2f-4246-a3f9-dc4e8700bf64" name="Changes" comment="" />
+      <created>1777192227750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777192227750</updated>
+      <workItem from="1777192229399" duration="323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/howtowithjavafx/Launcher.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

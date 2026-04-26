@@ -1,3 +1,5 @@
+package org.example.howtowithjavafx;
+
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
@@ -9,7 +11,9 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.util.Duration;
- 
+
+import java.util.Objects;
+
 public class HowtoWithCanvas extends Application {  
     // inicialna sirka a vyska aplikacie
     static final int sirka = 400;
@@ -72,7 +76,8 @@ public class HowtoWithCanvas extends Application {
             g.setStroke(Color.YELLOWGREEN);
             g.strokeLine(-w/2, h/4, w/2, h/4);
             // Obrazok zo suboru - cesta, x, y, width, height
-            g.drawImage(new Image("file:namornik.gif"),w/8, h/8, w/8, h/8);
+            g.drawImage(new Image(Objects.requireNonNull(getClass().getResource("namornik.gif"))
+                    .toExternalForm()),w/8, h/8, w/8, h/8);
             // Text
             g.setFill(Color.BLACK);
             g.fillText("Tick: "+ tick, w/10,h/10);

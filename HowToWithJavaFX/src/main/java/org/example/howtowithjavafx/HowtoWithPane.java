@@ -1,9 +1,13 @@
+package org.example.howtowithjavafx;
+
 import java.io.File;
+import java.util.Objects;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
@@ -80,7 +84,11 @@ public class HowtoWithPane extends Application {
             l.setStroke(Color.YELLOWGREEN);
             // Obrazok zo suboru (dva sposoby)
             //ImageView img = new ImageView(new File("namornik.gif").toURI().toString());
-            ImageView img = new ImageView("file:namornik.gif");
+            //"file:namornik.gif");
+            ImageView img = new ImageView(
+                    Objects.requireNonNull(
+                            getClass().getResource("namornik.gif"))
+                            .toExternalForm());
             img.setX(w/8);
             img.setY(h/8);
             img.setFitWidth(w/8);

@@ -16,9 +16,9 @@ public class YieldingThread extends Thread {
     	  for(long j=0; j<500_000_000L; j++) {	// k�m toto zr�ta
 							// zapot� sa ...
 	         double gg = 0-Math.PI+j+j-j+Math.PI;
-      //   	 yield();
+        // 	 yield();
 	         if (j % 100_000_000L == 0) {
-	   //      	 yield();
+	         	 Thread.yield();
 	         }
 	      }
 	      //yield();
