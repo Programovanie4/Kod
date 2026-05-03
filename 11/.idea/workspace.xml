@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86c8e93c-d116-4097-bbce-265cfdf4438b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/CanvasDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/DragDropDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/Hypoteka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/KeyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/Klobuky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/Layouts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/MouseKeyEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/NamornikAppFx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/PiskvorkyCanvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/PiskvorkyGridButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/PiskvorkyGridCanvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/PiskyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/RobotniciBezSemaforu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/RobotniciSemaforom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/SingleStageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_1/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_1/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_1/bielyKlobuk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_1/ciernyKlobuk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_1/namornik.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_1/namornik2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_1/namornik2s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_1/namorniks.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_1/o.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_1/x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11OLD2/11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CvicenieA/src/main/java/org/example/cviceniea/NamorniciAppFx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CvicenieA/src/main/java/org/example/cviceniea/NamornikAppFxCvicenie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CvicenieA/src/main/java/org/example/cviceniea/RucickyFxCvicenie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CvicenieA/src/main/resources/org/example/cviceniea/namornik.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CvicenieA/src/main/resources/org/example/cviceniea/namornik2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CvicenieA/src/main/resources/org/example/cviceniea/namornik2s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CvicenieA/src/main/resources/org/example/cviceniea/namorniks.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/ArrayListNotSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/ArrayListNotSynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/ArrayListSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/ArrayListSynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/ArrayListThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/ArrayListThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/HowtoWithCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/HowtoWithCanvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/SleepVsWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10/src/main/java/org/example/_0/SleepVsWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bielyKlobuk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ciernyKlobuk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/namornik.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/namornik2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/namornik2s.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/namorniks.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/CanvasDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/DragDropDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/DragPane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Hypoteka.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/KeyDemo$MousePane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/KeyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Klobuky$Playground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Klobuky$Simulation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Klobuky$Simulation$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Klobuky$Simulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Klobuky.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Layouts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Life$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Life$Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Life$PlayGround.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Life.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/MouseDemo$MousePane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/MouseDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/MouseKeyEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/MutliStageDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/MyButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/MyButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/NamornikAppFx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/NamornikCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/NamornikFx$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/NamornikFx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/PiskvorkyCanvas$Piskyground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/PiskvorkyCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/PiskvorkyGridButton$PiskyCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/PiskvorkyGridButton$Piskyground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/PiskvorkyGridButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/PiskvorkyGridCanvas$PiskyCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/PiskvorkyGridCanvas$Piskyground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/PiskvorkyGridCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/PiskyState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/RobotniciBezSemaforu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/RobotniciSemaforom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Sedmospac.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/Sedmospac1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/SingleStageDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/SmallPane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/StateK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/TenisFx$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/TenisFx$PlayGround.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/TenisFx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/TenisFxCv$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/TenisFxCv$PlayGround.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/TenisFxCv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/TenisFxCvicenie$PlayGround.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/TenisFxCvicenie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/TextFieldDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/11/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CanvasDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DragDropDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hypoteka.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeyDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Klobuky.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Life.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MouseDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MouseKeyEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MutliStageDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NamornikAppFx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PiskvorkyCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PiskvorkyGridButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PiskvorkyGridCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PiskyState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RobotniciBezSemaforu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RobotniciSemaforom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingleStageDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TenisFx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TenisFxCv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TenisFxCvicenie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextFieldDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x.gif" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/borovan/JAVA/Kod/11" value="3DCPyZw00cWirvJPE8vEZ8B02ZU" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "peterborovan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Programovanie4/Kod.git",
+    "accountId": "a8ce023e-ee1d-4f23-8503-1a1b0445650b"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3DCPyZw00cWirvJPE8vEZ8B02ZU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CanvasDemo.executor": "Run",
+    "Application.DragDropDemo.executor": "Run",
+    "Application.Hypoteka.executor": "Run",
+    "Application.Klobuky.executor": "Run",
+    "Application.Layouts.executor": "Run",
+    "Application.MouseKeyEvent.executor": "Run",
+    "Application.NamornikAppFx (1).executor": "Run",
+    "Application.NamornikAppFx.executor": "Run",
+    "Application.PiskvorkyCanvas (1).executor": "Run",
+    "Application.PiskvorkyCanvas.executor": "Run",
+    "Application.PiskvorkyGridButton.executor": "Run",
+    "Application.PiskvorkyGridCanvas.executor": "Run",
+    "Application.SingleStageDemo.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/borovan/JAVA/Kod/11/src/main/java/org/example/_1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\borovan\JAVA\Kod\11\src\main\java\org\example\_1" />
+      <recent name="D:\borovan\JAVA\Kod\11\src\main\resources\org\example\_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TenisFxCv">
+    <configuration name="RobotniciBezSemaforu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._1.RobotniciBezSemaforu" />
+      <module name="11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenisFx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._1.TenisFx" />
+      <module name="11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenisFxCv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._1.TenisFxCv" />
+      <module name="11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenisFxCvicenie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._1.TenisFxCvicenie" />
+      <module name="11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextFieldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._1.TextFieldDemo" />
+      <module name="11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TenisFxCv" />
+        <item itemvalue="Application.TextFieldDemo" />
+        <item itemvalue="Application.TenisFxCvicenie" />
+        <item itemvalue="Application.TenisFx" />
+        <item itemvalue="Application.RobotniciBezSemaforu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86c8e93c-d116-4097-bbce-265cfdf4438b" name="Changes" comment="" />
+      <created>1777783336759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777783336759</updated>
+      <workItem from="1777783338107" duration="2724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

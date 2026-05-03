@@ -14,7 +14,7 @@ public class SleepVsWait {
         Thread mainThread = Thread.currentThread();
         new Thread(() -> {
                 System.out.println(time() + Thread.currentThread().getName() + " sa nastartoval");
-                try { Thread.sleep(6000); } catch (InterruptedException e) {}
+                try { Thread.sleep(14000); } catch (InterruptedException e) {}
                 System.out.println(time() +"Object " + objekt + " sa ide unlocknut");
                 // IllegalMonitorStateException
                 synchronized (objekt) {

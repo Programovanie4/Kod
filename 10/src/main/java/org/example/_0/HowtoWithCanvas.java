@@ -76,7 +76,8 @@ public class HowtoWithCanvas extends Application {
             g.setStroke(Color.YELLOWGREEN);
             g.strokeLine(-w/2, h/4, w/2, h/4);
             // Obrazok zo suboru - cesta, x, y, width, height
-            g.drawImage(new Image(Objects.requireNonNull(getClass().getResource("namornik.gif"))
+            g.drawImage(
+                    new Image(Objects.requireNonNull(getClass().getResource("namornik.gif"))
                     .toExternalForm()),w/8, h/8, w/8, h/8);
             // Text
             g.setFill(Color.BLACK);

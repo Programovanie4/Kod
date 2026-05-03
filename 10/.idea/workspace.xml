@@ -5,143 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89fcf764-e201-46ae-9863-97461c6902e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/ArrayListNotSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/ArrayListSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/ArrayListThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/Diners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/DisplaySemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/FixedPhilosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/Fork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/HowtoWithCanvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/HowtoWithPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/Jama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/Lopata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/LopataSem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/LopataWN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/NumberCanvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/PhilCanvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/Philosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/RobotniciBezSemaforu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/RobotniciSemaforom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/RucickyFxCvicenie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/SemaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/Semaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/SenderReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/SleepVsWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/TaskThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/eating.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_0/eating.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_0/gotleft.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_0/gotright.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_0/hungry.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_0/namornik.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_0/namornik2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_0/namornik2s.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_0/namorniks.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_0/o.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_0/thinking.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/_0/x.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/AutoEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/Diners$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/Diners$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/Diners.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/DisplaySemaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/DisplayThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/FixedPhilosopher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/Fork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/GraphicCanvas$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/GraphicCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/Layouts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/MyButton$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/MyButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/NumberCanvas$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/NumberCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/PhilCanvas$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/PhilCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/Philosopher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/PiskvorkyGridCanvas$PiskyCell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/PiskvorkyGridCanvas$PiskyState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/PiskvorkyGridCanvas$Piskyground.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/PiskvorkyGridCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/PiskvorkyGridToggleButton$PiskyCell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/PiskvorkyGridToggleButton$PiskyState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/PiskvorkyGridToggleButton$Piskyground.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/PiskvorkyGridToggleButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/Rotator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/SemaDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/Semaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/SemaphoreLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/SmallPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/Squash$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/Squash$PlayGround.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/Squash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/StageDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/TMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/TenisCanvas$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/TenisCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/TenisFx$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/TenisFx$PlayGround.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/TenisFx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/ThreadPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/ThreadPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/ThreadPanel$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/ThreadPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/eating.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/gotleft.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/gotright.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/hungry.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/namornik.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/namornik2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/namornik2s.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/namorniks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/o.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/thinking.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AutoEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diners.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DisplaySemaphore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FixedPhilosopher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberCanvas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PhilCanvas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Philosopher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PiskvorkyGridCanvas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PiskvorkyGridToggleButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SemaDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Semaphore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Squash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StageDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TenisCanvas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TenisFx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eating.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gotleft.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gotright.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hungry.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/namornik.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/namornik2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/namornik2s.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/namorniks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/o.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thinking.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cvicenie9/src/main/java/org/example/cvicenie9/RucickyFxCvicenie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cvicenie9/src/main/java/org/example/cvicenie9/RucickyFxCvicenie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HowToWithJavaFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HowToWithJavaFX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_0/ArrayListNotSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/ArrayListNotSynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_0/ArrayListSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/ArrayListSynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_0/ArrayListThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/ArrayListThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_0/HowtoWithCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/HowtoWithCanvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_0/SleepVsWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_0/SleepVsWait.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +67,8 @@
     "Application.HowtoWithPane.executor": "Run",
     "Application.Jama.executor": "Run",
     "Application.LopataSem.executor": "Run",
+    "Application.LopataWN.executor": "Run",
+    "Application.RobotniciBezSemaforu.executor": "Run",
     "Application.RucickyFxCvicenie.executor": "Run",
     "Application.SemaDemo.executor": "Run",
     "Application.SenderReceiver.executor": "Run",
@@ -233,9 +104,9 @@
       <recent name="D:\borovan\JAVA\Kod\10\src\main\java\org\example\_0" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Diners">
-    <configuration name="Diners" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._0.Diners" />
+  <component name="RunManager" selected="Application.RobotniciBezSemaforu">
+    <configuration name="ArrayListThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._0.ArrayListThread" />
       <module name="10" />
       <extension name="coverage">
         <pattern>
@@ -247,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Jama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._0.Jama" />
+    <configuration name="LopataSem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._0.LopataSem" />
       <module name="10" />
       <extension name="coverage">
         <pattern>
@@ -260,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._0.SemaDemo" />
+    <configuration name="RobotniciBezSemaforu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._0.RobotniciBezSemaforu" />
       <module name="10" />
       <extension name="coverage">
         <pattern>
@@ -273,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example._0.ThreadDemo" />
+    <configuration name="SleepVsWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._0.SleepVsWait" />
       <module name="10" />
       <extension name="coverage">
         <pattern>
@@ -286,7 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example._0 in 10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Whisperers4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._0.Whisperers4" />
       <module name="10" />
       <extension name="coverage">
         <pattern>
@@ -294,19 +166,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example._0" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Diners" />
-        <item itemvalue="Application.SemaDemo" />
-        <item itemvalue="Application.ThreadDemo" />
-        <item itemvalue="JUnit.org.example._0 in 10" />
-        <item itemvalue="Application.Jama" />
+        <item itemvalue="Application.RobotniciBezSemaforu" />
+        <item itemvalue="Application.LopataSem" />
+        <item itemvalue="Application.SleepVsWait" />
+        <item itemvalue="Application.ArrayListThread" />
+        <item itemvalue="Application.Whisperers4" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1777193374776</updated>
-      <workItem from="1777193375986" duration="7224000" />
+      <workItem from="1777193375986" duration="22066000" />
     </task>
     <servers />
   </component>
